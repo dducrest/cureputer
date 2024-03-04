@@ -1,0 +1,13 @@
+[Unit]
+Description=Humidity Sensor
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=ubuntu
+ExecStart=python /home/ubuntu/cureputer/drivers/driver_exhaust.py
+
+[Install]
+WantedBy=multi-user.target
