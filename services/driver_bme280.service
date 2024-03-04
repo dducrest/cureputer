@@ -7,7 +7,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=ubuntu
-ExecStart=python /home/ubuntu/cureputer/driver/driver_bme280.py
+ExecStart=python /home/ubuntu/cureputer/drivers/driver_bme280.py
 
 [Install]
 WantedBy=multi-user.target
