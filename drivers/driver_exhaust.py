@@ -4,7 +4,7 @@
 # RANGE_ON_LOW/HIGH - 
 PIN = 12
 CHECK_KEY = "bme280:humidity"
-RANGE_ON_LOW = 65
+RANGE_ON_LOW = 70
 RANGE_ON_HIGH = 100
 
 import RPi.GPIO as GPIO
